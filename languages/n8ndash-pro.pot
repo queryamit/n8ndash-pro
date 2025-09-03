@@ -1,0 +1,21 @@
+# Copyright (C) 2025 Amit Anand Niraj
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: n8nDash Pro 1.2.0\n"
+"Report-Msgid-Bugs-To: https://github.com/queryamit/n8ndash-pro/issues\n"
+"POT-Creation-Date: 2025-09-01 21:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: n8ndash-pro.php:5
+msgid "Professional dashboard for n8n automations with advanced widget management. Create beautiful, responsive dashboards to control and monitor your n8n workflows."
+msgstr ""
+
+#: includes/class-n8ndash-i18n.php:45
+msgid "n8nDash Pro"
+msgstr ""

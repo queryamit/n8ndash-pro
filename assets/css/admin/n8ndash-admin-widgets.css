@@ -1,0 +1,2010 @@
+/* ==========================================================================
+   Professional Badge and Button Styling
+   ========================================================================== */
+
+/* Badge Styling - Professional Design */
+.badge-main {
+    background: linear-gradient(135deg, #2271b1, #135e96);
+    color: #ffffff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(34, 113, 177, 0.3);
+    display: inline-block;
+    line-height: 1.2;
+}
+
+/* Enhanced Button Styling */
+.n8ndash-widget__actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    color: #646970;
+    transition: all 0.2s ease;
+    min-width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    position: relative;
+}
+
+.n8ndash-widget__actions button:hover {
+    background: #f0f0f1;
+    color: #135e96;
+    transform: scale(1.1);
+}
+
+.n8ndash-widget__actions button:active {
+    transform: scale(0.95);
+}
+
+/* ==========================================================================
+   Enhanced Admin Dashboard Layout
+   ========================================================================== */
+
+/* Admin Dashboard Container - Professional Appearance */
+.n8ndash-admin-wrap {
+    margin: 20px 20px 0 0;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.n8ndash-admin-wrap h1 {
+    margin: 0;
+    padding: 24px 32px 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d2327;
+    line-height: 1.3;
+    border-bottom: 1px solid #f0f0f1;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+/* Editor Container Layout - Modern Grid System */
+.n8ndash-editor-container {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 0;
+    min-height: calc(100vh - 200px);
+    background: #f8f9fa;
+}
+
+.n8ndash-editor-sidebar {
+    background: #ffffff;
+    border-right: 1px solid #e2e4e7;
+    padding: 24px;
+    overflow-y: auto;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.n8ndash-editor-main {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+/* Editor Header - Professional Design */
+.n8ndash-editor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    margin: 0;
+    background: #ffffff;
+    border-bottom: 1px solid #e2e4e7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-height: 80px;
+    flex-shrink: 0;
+}
+
+.n8ndash-editor-header h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1d2327;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.n8ndash-editor-tools {
+    display: flex;
+    gap: 12px;
+    flex-shrink: 0;
+}
+
+.n8ndash-editor-tools .button {
+    min-width: auto;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border: 1px solid #dcdcde;
+    background: #ffffff;
+    color: #50575e;
+}
+
+.n8ndash-editor-tools .button:hover {
+    background: #f6f7f7;
+    border-color: #8c8f94;
+    color: #1d2327;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Canvas - Professional Workspace */
+.n8ndash-dashboard-canvas {
+    flex: 1;
+    position: relative;
+    background: linear-gradient(135deg, #f8f9fa 0%, #f1f3f4 100%);
+    min-height: 600px;
+    overflow: hidden;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+/* Canvas Empty State */
+.n8ndash-canvas-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 400px;
+    text-align: center;
+    color: #646970;
+    padding: 48px 24px;
+}
+
+.n8ndash-canvas-empty p {
+    font-size: 16px;
+    margin: 16px 0 0 0;
+    color: #646970;
+}
+
+/* ==========================================================================
+   Modern Widget Design - Professional & Responsive
+   ========================================================================== */
+
+/* Widget Container - Modern Card Design */
+.n8ndash-widget {
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid #e2e4e7;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-width: 280px;
+    min-height: 200px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    cursor: move;
+}
+
+.n8ndash-widget:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-color: #c3c4c7;
+    transform: translateY(-2px);
+}
+
+.n8ndash-widget.ui-draggable-dragging,
+.n8ndash-widget.n8ndash-widget-dragging {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    opacity: 0.95;
+    z-index: 1000;
+    transform: rotate(1deg) scale(1.02);
+    transition: none;
+}
+
+.n8ndash-widget.ui-resizable-resizing {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 2px rgba(34, 113, 177, 0.2);
+}
+
+.n8ndash-widget.n8ndash-widget-resizing {
+    border-color: #46b450;
+    box-shadow: 0 0 0 2px rgba(70, 180, 80, 0.2);
+}
+
+/* Widget Header - Professional Header Design */
+.n8ndash-widget__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid #f0f0f1;
+    cursor: move;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    flex-shrink: 0;
+    min-height: 56px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.n8ndash-widget__header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #2271b1, #46b450);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.n8ndash-widget:hover .n8ndash-widget__header::before {
+    opacity: 1;
+}
+
+.n8ndash-widget__title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d2327;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.4;
+}
+
+/* ==========================================================================
+   Modern Resize Handles - Professional Interaction
+   ========================================================================== */
+
+/* Resize handles for proper interaction */
+.n8ndash-widget::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 16px;
+    height: 16px;
+    background: linear-gradient(135deg, #2271b1, #46b450);
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s ease;
+    cursor: se-resize;
+    z-index: 10;
+    border: 2px solid #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.n8ndash-widget:hover::after {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.n8ndash-widget.n8ndash-widget-resizing::after {
+    opacity: 1;
+    transform: scale(1.2);
+    background: linear-gradient(135deg, #46b450, #2271b1);
+}
+
+/* Additional resize handles for better UX */
+.n8ndash-widget::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #2271b1, #46b450);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    cursor: n-resize;
+    z-index: 5;
+}
+
+.n8ndash-widget:hover::before {
+    opacity: 0.3;
+}
+
+.n8ndash-widget.n8ndash-widget-resizing::before {
+    opacity: 0.6;
+}
+
+/* ==========================================================================
+   Grid System - Professional Layout
+   ========================================================================== */
+
+/* Grid snapping visual feedback */
+.n8ndash-dashboard-canvas.show-grid {
+    background-image:
+        linear-gradient(rgba(34, 113, 177, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(34, 113, 177, 0.08) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Grid toggle button enhancement */
+#n8ndash-grid-toggle.active {
+    background: #2271b1 !important;
+    color: #ffffff !important;
+    border-color: #2271b1 !important;
+}
+
+/* ==========================================================================
+   Responsive Design - Mobile-First Approach
+   ========================================================================== */
+
+@media (max-width: 1400px) {
+    .n8ndash-editor-container {
+        grid-template-columns: 280px 1fr;
+    }
+    
+    .n8ndash-editor-sidebar {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .n8ndash-editor-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+    }
+    
+    .n8ndash-editor-sidebar {
+        border-right: none;
+        border-bottom: 1px solid #e2e4e7;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    
+    .n8ndash-editor-main {
+        min-width: 0;
+    }
+    
+    .n8ndash-widget {
+        min-width: 260px;
+        min-height: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .n8ndash-admin-wrap {
+        margin: 15px 15px 0 0;
+    }
+    
+    .n8ndash-admin-wrap h1 {
+        padding: 20px 24px 12px;
+        font-size: 20px;
+    }
+    
+    .n8ndash-editor-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        min-height: auto;
+        padding: 20px 24px;
+    }
+    
+    .n8ndash-editor-header h2 {
+        font-size: 18px;
+    }
+    
+    .n8ndash-editor-tools {
+        align-self: flex-end;
+        gap: 8px;
+    }
+    
+    .n8ndash-editor-tools .button {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+    
+    .n8ndash-dashboard-canvas {
+        padding: 16px;
+    }
+    
+    .n8ndash-widget {
+        min-width: 240px;
+        min-height: 160px;
+    }
+    
+    .n8ndash-widget__header {
+        padding: 12px 16px;
+        min-height: 48px;
+    }
+    
+    .n8ndash-widget__title {
+        font-size: 14px;
+    }
+    
+    .n8ndash-widget__actions button {
+        min-width: 24px;
+        height: 24px;
+        padding: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    .n8ndash-admin-wrap {
+        margin: 10px 10px 0 0;
+        border-radius: 6px;
+    }
+    
+    .n8ndash-admin-wrap h1 {
+        padding: 16px 20px 10px;
+        font-size: 18px;
+    }
+    
+    .n8ndash-editor-container {
+        gap: 0;
+    }
+    
+    .n8ndash-editor-sidebar {
+        padding: 16px 20px;
+    }
+    
+    .n8ndash-editor-header {
+        padding: 16px 20px;
+    }
+    
+    .n8ndash-editor-header h2 {
+        font-size: 16px;
+    }
+    
+    .n8ndash-dashboard-canvas {
+        padding: 12px;
+    }
+    
+    .n8ndash-widget {
+        min-width: 220px;
+        min-height: 140px;
+    }
+    
+    .n8ndash-widget__header {
+        padding: 10px 14px;
+        min-height: 44px;
+    }
+    
+    .n8ndash-widget__title {
+        font-size: 13px;
+    }
+}
+
+/* ==========================================================================
+   Enhanced Interactions - Professional Feel
+   ========================================================================== */
+
+/* Smooth transitions for all interactive elements */
+.n8ndash-widget * {
+    transition: all 0.2s ease;
+}
+
+/* Focus states for accessibility */
+.n8ndash-widget:focus-within {
+    outline: 2px solid #2271b1;
+    outline-offset: 2px;
+    border-color: #2271b1;
+}
+
+/* Loading states */
+.n8ndash-widget.loading {
+    position: relative;
+    pointer-events: none;
+}
+
+.n8ndash-widget.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin: -12px 0 0 -12px;
+    border: 2px solid #e2e4e7;
+    border-top: 2px solid #2271b1;
+    border-radius: 50%;
+    animation: n8ndash-spin 1s linear infinite;
+    z-index: 100;
+}
+
+@keyframes n8ndash-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   Professional Color Scheme - Consistent Branding
+   ========================================================================== */
+
+:root {
+    --n8ndash-primary: #2271b1;
+    --n8ndash-primary-dark: #135e96;
+    --n8ndash-success: #46b450;
+    --n8ndash-warning: #f56e28;
+    --n8ndash-danger: #d63638;
+    --n8ndash-text: #1d2327;
+    --n8ndash-text-secondary: #646970;
+    --n8ndash-border: #e2e4e7;
+    --n8ndash-background: #f8f9fa;
+    --n8ndash-shadow: rgba(0, 0, 0, 0.08);
+}
+
+/* ==========================================================================
+   Performance Optimizations
+   ========================================================================== */
+
+/* Hardware acceleration for smooth animations */
+.n8ndash-widget {
+    will-change: transform, box-shadow;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+
+/* Optimize transitions for performance */
+.n8ndash-widget:hover,
+.n8ndash-widget:focus-within {
+    will-change: transform, box-shadow;
+}
+
+/* ==========================================================================
+   Widget Body and Preview Content - Professional Integration
+   ========================================================================== */
+
+/* Widget Body - Professional Content Area */
+.n8ndash-widget__body {
+    padding: 0;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+/* Widget Actions - Professional Button Layout */
+.n8ndash-widget__actions {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+/* Ensure preview content fills the entire widget container */
+.n8ndash-widget .n8ndash-widget-preview {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+/* Make preview header and body fill container properly */
+.n8ndash-widget .n8ndash-widget-preview-header {
+    flex-shrink: 0;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.n8ndash-widget .n8ndash-widget-preview-body {
+    flex: 1;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    min-height: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    padding: 20px;
+}
+
+/* Ensure content wrapper fills available space */
+.n8ndash-widget .n8ndash-widget-content-wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* ==========================================================================
+   Professional Widget Preview Content - Modern Design
+   ========================================================================== */
+
+
+
+.n8ndash-widget-preview-header {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    min-height: auto;
+    flex-shrink: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.n8ndash-widget-preview-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #646970;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 8px 0;
+}
+
+.n8ndash-widget-preview-title::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2271b1;
+    flex-shrink: 0;
+    border: 1px solid #60a5fa;
+}
+
+.n8ndash-widget-preview-type {
+    background: #f0f0f1;
+    color: #646970;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid #dcdcde;
+    flex-shrink: 0;
+    box-shadow: none;
+}
+
+.n8ndash-widget-preview-body {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Widget Type Specific Styling */
+.n8ndash-widget[data-widget-type="data"] .n8ndash-widget-preview-title::before {
+    background: #10b981;
+    border-color: #34d399;
+}
+
+.n8ndash-widget[data-widget-type="data"] .n8ndash-widget-preview-type {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+    border-color: #34d399;
+}
+
+.n8ndash-widget[data-widget-type="chart"] .n8ndash-widget-preview-title::before {
+    background: #8b5cf6;
+    border-color: #a78bfa;
+}
+
+.n8ndash-widget[data-widget-type="chart"] .n8ndash-widget-preview-type {
+    background: rgba(139, 92, 246, 0.1);
+    color: #8b5cf6;
+    border-color: #a78bfa;
+}
+
+.n8ndash-widget[data-widget-type="custom"] .n8ndash-widget-preview-title::before {
+    background: #f59e0b;
+    border-color: #fbbf24;
+}
+
+.n8ndash-widget[data-widget-type="custom"] .n8ndash-widget-preview-type {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+    border-color: #fbbf24;
+}
+
+
+
+/* Widget Content Enhancements */
+.n8ndash-widget-preview .n8n-data-widget,
+.n8ndash-widget-preview .n8n-chart-widget,
+.n8ndash-widget-preview .n8n-custom-widget {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 100px;
+}
+
+
+
+
+
+
+
+/* KPI Widget Styling */
+.n8ndash-widget-preview .n8n-kpi {
+    text-align: center;
+    padding: 16px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.n8ndash-widget-preview .n8n-kpi__value {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 8px;
+}
+
+.n8ndash-widget-preview .n8n-kpi__main {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1d2327;
+    display: block;
+    line-height: 1;
+}
+
+.n8ndash-widget-preview .n8n-kpi__delta {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 16px;
+    background: rgba(59, 130, 246, 0.1);
+    white-space: nowrap;
+    color: #2271b1;
+}
+
+.n8ndash-widget-preview .n8n-kpi__delta--up {
+    color: #10b981;
+    background: rgba(16, 185, 129, 0.1);
+}
+
+.n8ndash-widget-preview .n8n-kpi__delta--down {
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+}
+
+.n8ndash-widget-preview .n8n-kpi__subtitle {
+    color: #646970;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+/* Chart Widget Styling */
+.n8ndash-widget-preview .n8n-chart-container {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    margin-bottom: 8px;
+}
+
+.n8ndash-widget-preview .n8n-chart-subtitle {
+    color: #646970;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+/* Enhanced Chart Widget Styling - Better Visibility */
+.n8ndash-widget-preview .n8n-chart-container {
+    width: 100%;
+    height: 160px; /* Increased from 120px for better chart visibility */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px; /* Reduced padding to give more space to chart */
+    margin-bottom: 8px;
+    min-height: 160px;
+}
+
+/* Ensure Chart.js canvas is properly sized */
+.n8ndash-widget-preview .n8n-chart-container canvas {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+/* Chart subtitle with better visibility */
+.n8ndash-widget-preview .n8n-chart-subtitle {
+    color: #1d2327; /* Darker color for better visibility */
+    font-size: 13px; /* Slightly larger font */
+    font-weight: 500; /* Medium weight for better readability */
+    text-align: center;
+    margin-top: 12px;
+    line-height: 1.4;
+}
+
+/* List Widget Styling */
+.n8ndash-widget-preview .n8n-list__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 100px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 220px;
+}
+
+.n8ndash-widget-preview .n8n-list__item {
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f1;
+    font-size: 12px;
+    text-align: center;
+}
+
+.n8ndash-widget-preview .n8n-list__item:last-child {
+    border-bottom: none;
+}
+
+.n8ndash-widget-preview .n8n-list__item a {
+    color: #2271b1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    display: block;
+    padding: 4px 0;
+}
+
+.n8ndash-widget-preview .n8n-list__item a:hover {
+    color: #135e96;
+}
+
+.n8ndash-widget-preview .n8n-list__item--empty {
+    color: #8c8f94;
+    font-style: italic;
+    text-align: center;
+    padding: 16px 0;
+}
+
+/* Empty State Styling */
+.n8ndash-widget-preview-empty {
+    text-align: center;
+    padding: 24px;
+    color: #8c8f94;
+    width: 100%;
+}
+
+.n8ndash-widget-preview-empty .dashicons {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    color: #dcdcde;
+    display: block;
+}
+
+.n8ndash-widget-preview-empty p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #8c8f94;
+}
+
+/* ==========================================================================
+   Enhanced Widget Interactions - Professional Feel
+   ========================================================================== */
+
+/* Widget hover effects */
+.n8ndash-widget:hover .n8ndash-widget-preview-title {
+    color: #1d2327;
+}
+
+.n8ndash-widget:hover .n8ndash-widget-preview-type {
+    background: #e5e5e5;
+    color: #50575e;
+    border-color: #c3c4c7;
+}
+
+/* Widget focus states */
+.n8ndash-widget:focus-within .n8ndash-widget-preview-title {
+    color: #135e96;
+}
+
+.n8ndash-widget:focus-within .n8ndash-widget-preview-type {
+    background: rgba(34, 113, 177, 0.1);
+    color: #135e96;
+    border-color: #2271b1;
+}
+
+/* Widget loading states */
+.n8ndash-widget.loading .n8ndash-widget-preview-body {
+    opacity: 0.6;
+}
+
+.n8ndash-widget.loading .n8ndash-widget-preview-body::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #e2e4e7;
+    border-top: 2px solid #2271b1;
+    border-radius: 50%;
+    animation: n8ndash-spin 1s linear infinite;
+    z-index: 100;
+}
+
+/* ==========================================================================
+   Professional Spacing and Typography
+   ========================================================================== */
+
+/* Consistent spacing system */
+.n8ndash-widget * {
+    box-sizing: border-box;
+}
+
+/* Typography improvements */
+.n8ndash-widget-preview * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/* Smooth scrolling for content */
+.n8ndash-widget-preview .n8n-list__items {
+    scrollbar-width: thin;
+    scrollbar-color: #c3c4c7 #f0f0f1;
+}
+
+.n8ndash-widget-preview .n8n-list__items::-webkit-scrollbar {
+    width: 6px;
+}
+
+.n8ndash-widget-preview .n8n-list__items::-webkit-scrollbar-track {
+    background: #f0f0f1;
+    border-radius: 3px;
+}
+
+.n8ndash-widget-preview .n8n-list__items::-webkit-scrollbar-thumb {
+    background: #c3c4c7;
+    border-radius: 3px;
+}
+
+.n8ndash-widget-preview .n8n-list__items::-webkit-scrollbar-thumb:hover {
+    background: #8c8f94;
+}
+
+/* ==========================================================================
+   Accessibility Improvements
+   ========================================================================== */
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .n8ndash-widget {
+        border-width: 2px;
+        border-color: #000000;
+    }
+    
+    .n8ndash-widget__header {
+        background: #000000;
+        color: #ffffff;
+    }
+    
+    .n8ndash-widget__title {
+        color: #ffffff;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .n8ndash-widget,
+    .n8ndash-widget * {
+        transition: none !important;
+        animation: none !important;
+    }
+    
+    .n8ndash-widget:hover {
+        transform: none !important;
+    }
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+    .n8ndash-widget {
+        position: relative !important;
+        break-inside: avoid;
+        box-shadow: none !important;
+        border: 1px solid #000000 !important;
+    }
+    
+    .n8ndash-widget__header {
+        background: #f0f0f0 !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+}
+
+/* ==========================================================================
+   Enhanced Data Widget Styling - Better Visibility
+   ========================================================================== */
+
+/* KPI Widget Styling - Improved Colors */
+.n8ndash-widget-preview .n8n-kpi {
+    text-align: center;
+    padding: 16px;
+    width: 100%;
+    max-width: 200px;
+}
+
+.n8ndash-widget-preview .n8n-kpi__value {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 8px;
+}
+
+.n8ndash-widget-preview .n8n-kpi__main {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1d2327; /* Dark color for maximum visibility */
+    display: block;
+    line-height: 1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for better contrast */
+}
+
+.n8ndash-widget-preview .n8n-kpi__delta {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 16px;
+    background: rgba(59, 130, 246, 0.15); /* Slightly more opaque background */
+    white-space: nowrap;
+    color: #135e96; /* Darker blue for better visibility */
+    border: 1px solid rgba(59, 130, 246, 0.3); /* Subtle border */
+}
+
+.n8ndash-widget-preview .n8n-kpi__delta--up {
+    color: #0f5132; /* Darker green for better visibility */
+    background: rgba(16, 185, 129, 0.15);
+    border-color: rgba(16, 185, 129, 0.3);
+}
+
+.n8ndash-widget-preview .n8n-kpi__delta--down {
+    color: #dc2626; /* Darker red for better visibility */
+    background: rgba(239, 68, 68, 0.15);
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.n8ndash-widget-preview .n8n-kpi__subtitle {
+    color: #374151; /* Darker gray for better visibility */
+    font-size: 13px;
+    font-weight: 600; /* Increased weight for better readability */
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+/* List Widget Styling - Enhanced Visibility */
+.n8ndash-widget-preview .n8n-list__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 100px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 220px;
+}
+
+.n8ndash-widget-preview .n8n-list__item {
+    padding: 6px 0;
+    border-bottom: 1px solid #e5e7eb; /* Slightly darker border */
+    font-size: 12px;
+    text-align: center;
+}
+
+.n8ndash-widget-preview .n8n-list__item:last-child {
+    border-bottom: none;
+}
+
+.n8ndash-widget-preview .n8n-list__item a {
+    color: #1d4ed8; /* Darker blue for better visibility */
+    text-decoration: none;
+    font-weight: 600; /* Increased weight */
+    transition: color 0.2s ease;
+    display: block;
+    padding: 4px 0;
+}
+
+.n8ndash-widget-preview .n8n-list__item a:hover {
+    color: #1e40af; /* Even darker on hover */
+    text-decoration: underline;
+}
+
+.n8ndash-widget-preview .n8n-list__item--empty {
+    color: #6b7280; /* Darker gray for better visibility */
+    font-style: italic;
+    text-align: center;
+    padding: 16px 0;
+    font-weight: 500;
+}
+
+/* ==========================================================================
+   Widget Type Specific Enhancements - Better Visual Hierarchy
+   ========================================================================== */
+
+/* Data Widget - Enhanced Visibility */
+.n8ndash-widget[data-widget-type="data"] .n8ndash-widget-preview-title::before {
+    background: #059669; /* Darker green for better contrast */
+    border-color: #10b981;
+    box-shadow: 0 0 0 2px rgba(5, 150, 105, 0.2); /* Subtle glow */
+}
+
+.n8ndash-widget[data-widget-type="data"] .n8ndash-widget-preview-type {
+    background: rgba(5, 150, 105, 0.15); /* More opaque background */
+    color: #059669; /* Darker green text */
+    border-color: #10b981;
+    font-weight: 700; /* Bolder text */
+}
+
+/* Chart Widget - Enhanced Visibility */
+.n8ndash-widget[data-widget-type="chart"] .n8ndash-widget-preview-title::before {
+    background: #7c3aed; /* Darker purple for better contrast */
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2); /* Subtle glow */
+}
+
+.n8ndash-widget[data-widget-type="chart"] .n8ndash-widget-preview-type {
+    background: rgba(124, 58, 237, 0.15); /* More opaque background */
+    color: #7c3aed; /* Darker purple text */
+    border-color: #8b5cf6;
+    font-weight: 700; /* Bolder text */
+}
+
+/* Custom Widget - Enhanced Visibility */
+.n8ndash-widget[data-widget-type="custom"] .n8ndash-widget-preview-title::before {
+    background: #d97706; /* Darker orange for better contrast */
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.2); /* Subtle glow */
+}
+
+.n8ndash-widget[data-widget-type="custom"] .n8ndash-widget-preview-type {
+    background: rgba(217, 119, 6, 0.15); /* More opaque background */
+    color: #d97706; /* Darker orange text */
+    border-color: #f59e0b;
+    font-weight: 700; /* Bolder text */
+}
+
+/* ==========================================================================
+   Chart Container Responsive Adjustments
+   ========================================================================== */
+
+/* Ensure charts are properly sized on different screen sizes */
+@media (max-width: 1200px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 140px; /* Slightly smaller on medium screens */
+        min-height: 140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 120px; /* Smaller on mobile but still visible */
+        min-height: 120px;
+        padding: 8px;
+    }
+    
+    .n8ndash-widget-preview .n8n-chart-subtitle {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 100px; /* Compact on small mobile */
+        min-height: 100px;
+        padding: 6px;
+    }
+}
+
+/* ==========================================================================
+   Chart Focus and Loading States - Enhanced User Experience
+   ========================================================================== */
+
+/* Enhanced focus states for chart widgets */
+.n8ndash-widget[data-widget-type="chart"]:focus-within .n8n-chart-container {
+    outline: 2px solid #8b5cf6;
+    outline-offset: 4px;
+    border-radius: 8px;
+}
+
+/* Chart loading state */
+.n8ndash-widget-preview .n8n-chart-container.loading {
+    position: relative;
+    background: rgba(248, 250, 252, 0.8);
+    border-radius: 8px;
+}
+
+.n8ndash-widget-preview .n8n-chart-container.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin: -12px 0 0 -12px;
+    border: 2px solid #e2e8f0;
+    border-top: 2px solid #8b5cf6;
+    border-radius: 50%;
+    animation: n8ndash-spin 1s linear infinite;
+    z-index: 100;
+}
+
+/* ==========================================================================
+   Chart Legend and Labels - Enhanced Visibility
+   ========================================================================== */
+
+/* Ensure chart labels are visible on dark backgrounds */
+.n8ndash-widget-preview .n8n-chart-container .chartjs-tooltip {
+    background: rgba(0, 0, 0, 0.9) !important;
+    color: #ffffff !important;
+    border: 1px solid rgba(167, 139, 250, 0.5) !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Chart axis labels visibility */
+.n8ndash-widget-preview .n8n-chart-container .chartjs-axis-label {
+    color: #e5e7eb !important; /* Light gray for dark backgrounds */
+    font-weight: 500 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Chart grid lines for better visibility */
+.n8ndash-widget-preview .n8n-chart-container .chartjs-grid-line {
+    stroke: rgba(255, 255, 255, 0.1) !important; /* Subtle white grid lines */
+}
+
+/* ==========================================================================
+   Dark Background Text Visibility - Light Colors for Better Contrast
+   ========================================================================== */
+
+/* Chart subtitle with light colors for dark backgrounds */
+.n8ndash-widget-preview .n8n-chart-subtitle {
+    color: #ffffff; /* Light white text for dark backgrounds */
+    font-size: 14px; /* Larger font for better readability */
+    font-weight: 600; /* Bold weight for maximum visibility */
+    text-align: center;
+    margin-top: 12px;
+    line-height: 1.4;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8); /* Dark shadow for contrast */
+}
+
+/* KPI Widget Styling - Light Colors for Dark Backgrounds */
+.n8ndash-widget-preview .n8n-kpi__main {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff; /* Light white text for dark backgrounds */
+    display: block;
+    line-height: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9); /* Strong shadow for contrast */
+}
+
+.n8ndash-widget-preview .n8n-kpi__subtitle {
+    color: #e5e7eb; /* Light gray text for dark backgrounds */
+    font-size: 14px; /* Larger font for better readability */
+    font-weight: 600;
+    margin-top: 8px;
+    line-height: 1.4;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* List Widget Styling - Light Colors for Dark Backgrounds */
+.n8ndash-widget-preview .n8n-list__item a {
+    color: #60a5fa; /* Light blue for dark backgrounds */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    display: block;
+    padding: 4px 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.n8ndash-widget-preview .n8n-list__item a:hover {
+    color: #93c5fd; /* Lighter blue on hover */
+    text-decoration: underline;
+}
+
+.n8ndash-widget-preview .n8n-list__item--empty {
+    color: #d1d5db; /* Light gray for dark backgrounds */
+    font-style: italic;
+    text-align: center;
+    padding: 16px 0;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* ==========================================================================
+   Standard Chart Sizing - Professional Dimensions
+   ========================================================================== */
+
+/* Enhanced Chart Widget Styling - Standard Professional Size */
+.n8ndash-widget-preview .n8n-chart-container {
+    width: 100%;
+    height: 240px; /* Standard professional chart height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px; /* Proper padding for chart breathing room */
+    margin-bottom: 12px;
+    min-height: 240px;
+    position: relative;
+}
+
+/* Ensure Chart.js canvas is properly sized and centered */
+.n8ndash-widget-preview .n8n-chart-container canvas {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Chart legend styling for better visibility */
+.n8ndash-widget-preview .n8n-chart-container .chartjs-legend {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px 16px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.n8ndash-widget-preview .n8n-chart-container .chartjs-legend li {
+    color: #ffffff !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    margin: 2px 8px;
+}
+
+/* ==========================================================================
+   Widget Type Indicators - Light Colors for Dark Backgrounds
+   ========================================================================== */
+
+/* Data Widget - Light Colors for Dark Backgrounds */
+.n8ndash-widget[data-widget-type="data"] .n8ndash-widget-preview-title::before {
+    background: #10b981; /* Light green for dark backgrounds */
+    border-color: #34d399;
+    box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.4); /* Glowing effect */
+}
+
+.n8ndash-widget[data-widget-type="data"] .n8ndash-widget-preview-type {
+    background: rgba(16, 185, 129, 0.2); /* Semi-transparent light green */
+    color: #10b981; /* Light green text */
+    border-color: #34d399;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Chart Widget - Light Colors for Dark Backgrounds */
+.n8ndash-widget[data-widget-type="chart"] .n8ndash-widget-preview-title::before {
+    background: #a78bfa; /* Light purple for dark backgrounds */
+    border-color: #c4b5fd;
+    box-shadow: 0 0 0 2px rgba(167, 139, 250, 0.4); /* Glowing effect */
+}
+
+.n8ndash-widget[data-widget-type="chart"] .n8ndash-widget-preview-type {
+    background: rgba(167, 139, 250, 0.2); /* Semi-transparent light purple */
+    color: #a78bfa; /* Light purple text */
+    border-color: #c4b5fd;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Custom Widget - Light Colors for Dark Backgrounds */
+.n8ndash-widget[data-widget-type="custom"] .n8ndash-widget-preview-title::before {
+    background: #fbbf24; /* Light orange for dark backgrounds */
+    border-color: #fcd34d;
+    box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.4); /* Glowing effect */
+}
+
+.n8ndash-widget[data-widget-type="custom"] .n8ndash-widget-preview-type {
+    background: rgba(251, 191, 36, 0.2); /* Semi-transparent light orange */
+    color: #fbbf24; /* Light orange text */
+    border-color: #fcd34d;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* ==========================================================================
+   Widget Preview Title - Light Colors for Dark Backgrounds
+   ========================================================================== */
+
+.n8ndash-widget-preview-title {
+    font-size: 14px; /* Larger font for better readability */
+    font-weight: 600;
+    color: #f3f4f6; /* Light gray text for dark backgrounds */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 8px 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.n8ndash-widget-preview-title::before {
+    content: '';
+    width: 10px; /* Slightly larger indicator */
+    height: 10px;
+    border-radius: 50%;
+    background: #60a5fa; /* Light blue for dark backgrounds */
+    flex-shrink: 0;
+    border: 1px solid #93c5fd;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3); /* Subtle glow */
+}
+
+.n8ndash-widget-preview-type {
+    background: rgba(96, 165, 250, 0.2); /* Semi-transparent light blue */
+    color: #60a5fa; /* Light blue text for dark backgrounds */
+    padding: 3px 10px; /* Slightly larger padding */
+    border-radius: 12px;
+    font-size: 11px; /* Larger font for better readability */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid #93c5fd;
+    flex-shrink: 0;
+    box-shadow: none;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* ==========================================================================
+   Responsive Chart Sizing - Standard Dimensions Across Devices
+   ========================================================================== */
+
+/* Desktop - Standard Professional Size */
+@media (min-width: 1200px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 280px; /* Large desktop charts */
+        min-height: 280px;
+        padding: 20px;
+    }
+}
+
+/* Medium Screens - Standard Size */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 240px; /* Standard professional size */
+        min-height: 240px;
+        padding: 16px;
+    }
+}
+
+/* Mobile - Compact but Readable */
+@media (max-width: 767px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 200px; /* Mobile optimized but still standard */
+        min-height: 200px;
+        padding: 12px;
+    }
+    
+    .n8ndash-widget-preview .n8n-chart-subtitle {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+/* Small Mobile - Minimum Viable Size */
+@media (max-width: 480px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 180px; /* Compact but functional */
+        min-height: 180px;
+        padding: 10px;
+    }
+}
+
+/* ==========================================================================
+   Chart Focus and Loading States - Enhanced User Experience
+   ========================================================================== */
+
+/* Enhanced focus states for chart widgets */
+.n8ndash-widget[data-widget-type="chart"]:focus-within .n8n-chart-container {
+    outline: 2px solid #8b5cf6;
+    outline-offset: 4px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.2);
+}
+
+/* Chart loading state with better visibility */
+.n8ndash-widget .n8n-chart-container.loading {
+    position: relative;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.n8ndash-widget .n8n-chart-container.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 32px; /* Standard loading spinner */
+    height: 32px;
+    margin: -16px 0 0 -16px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-top: 3px solid #8b5cf6;
+    border-radius: 50%;
+    animation: n8ndash-spin 1s linear infinite;
+    z-index: 100;
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+/* ==========================================================================
+   Chart Legend and Labels - Enhanced Visibility for Light Backgrounds
+   ========================================================================== */
+
+/* Ensure chart labels are visible on light backgrounds */
+.n8ndash-widget .n8n-chart-container .chartjs-tooltip {
+    background: rgba(255, 255, 255, 0.98) !important;
+    color: #1e293b !important; /* Dark text for light backgrounds */
+    border: 1px solid rgba(139, 92, 246, 0.3) !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Chart axis labels visibility for light backgrounds */
+.n8ndash-widget .n8n-chart-container .chartjs-axis-label {
+    color: #374151 !important; /* Dark gray for light backgrounds */
+    font-weight: 500 !important;
+    font-size: 11px !important;
+}
+
+/* Chart grid lines for better visibility on light backgrounds */
+.n8ndash-widget .n8n-chart-container .chartjs-grid-line {
+    stroke: rgba(0, 0, 0, 0.1) !important; /* Subtle dark grid lines */
+}
+
+/* ==========================================================================
+   KPI Delta Styling - Proper Contrast for Light Backgrounds
+   ========================================================================== */
+
+.n8ndash-widget .n8n-kpi__delta {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 16px;
+    background: rgba(59, 130, 246, 0.1); /* Light background for dark text */
+    white-space: nowrap;
+    color: #135e96; /* Dark blue for light backgrounds */
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.n8ndash-widget .n8n-kpi__delta--up {
+    color: #0f5132; /* Dark green for light backgrounds */
+    background: rgba(16, 185, 129, 0.1);
+    border-color: rgba(16, 185, 129, 0.2);
+}
+
+.n8ndash-widget .n8n-kpi__delta--down {
+    color: #dc2626; /* Dark red for light backgrounds */
+    background: rgba(239, 68, 68, 0.1);
+    border-color: rgba(239, 68, 68, 0.2);
+}
+
+/* ==========================================================================
+   Loading Animation
+   ========================================================================== */
+
+@keyframes n8ndash-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ==========================================================================
+   Admin Dashboard Widget Styling - Proper Text Contrast
+   ========================================================================== */
+
+/* ==========================================================================
+   Light Background Widgets - Dark Text for Good Contrast
+   ========================================================================== */
+
+/* Chart subtitle with dark colors for light backgrounds */
+.n8ndash-widget .n8n-chart-subtitle {
+    color: #1e293b; /* Dark text for light backgrounds */
+    font-size: 14px; /* Standard font size */
+    font-weight: 600; /* Medium weight for readability */
+    text-align: center;
+    margin-top: 12px;
+    line-height: 1.4;
+}
+
+/* KPI Widget Styling - Dark Colors for Light Backgrounds */
+.n8ndash-widget .n8n-kpi__main {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b; /* Dark text for light backgrounds */
+    display: block;
+    line-height: 1;
+}
+
+.n8ndash-widget .n8n-kpi__subtitle {
+    color: #374151; /* Dark gray text for light backgrounds */
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+/* List Widget Styling - Dark Colors for Light Backgrounds */
+.n8ndash-widget .n8n-list__item a {
+    color: #1d4ed8; /* Dark blue for light backgrounds */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    display: block;
+    padding: 4px 0;
+    font-size: 12px;
+}
+
+.n8ndash-widget .n8n-list__item a:hover {
+    color: #1e40af; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+.n8ndash-widget .n8n-list__item--empty {
+    color: #6b7280; /* Dark gray for light backgrounds */
+    font-style: italic;
+    text-align: center;
+    padding: 16px 0;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* ==========================================================================
+   Standard Chart Sizing - Professional Dimensions for Admin
+   ========================================================================== */
+
+/* Enhanced Chart Widget Styling - Standard Professional Size */
+.n8ndash-widget .n8n-chart-container {
+    width: 100%;
+    height: 240px; /* Standard professional chart height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px; /* Proper padding for chart breathing room */
+    margin-bottom: 12px;
+    min-height: 240px;
+    position: relative;
+}
+
+/* Ensure Chart.js canvas is properly sized and centered */
+.n8ndash-widget .n8n-chart-container canvas {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    width: auto !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Chart legend styling for better visibility on light backgrounds */
+.n8ndash-widget .n8n-chart-container .chartjs-legend {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 8px 16px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.n8ndash-widget .n8n-chart-container .chartjs-legend li {
+    color: #1e293b !important; /* Dark text for light backgrounds */
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    margin: 2px 8px;
+}
+
+/* ==========================================================================
+   Widget Type Indicators - Proper Contrast for Light Backgrounds
+   ========================================================================== */
+
+/* Data Widget - Dark Colors for Light Backgrounds */
+.n8ndash-widget[data-widget-type="data"] .n8ndash-widget-preview-title::before {
+    background: #059669; /* Dark green for light backgrounds */
+    border-color: #10b981;
+    box-shadow: 0 0 0 2px rgba(5, 150, 105, 0.2); /* Subtle glow */
+}
+
+.n8ndash-widget[data-widget-type="data"] .n8ndash-widget-preview-type {
+    background: rgba(5, 150, 105, 0.1); /* Light background for dark text */
+    color: #059669; /* Dark green text for light backgrounds */
+    border-color: #10b981;
+    font-weight: 700;
+}
+
+/* Chart Widget - Dark Colors for Light Backgrounds */
+.n8ndash-widget[data-widget-type="chart"] .n8ndash-widget-preview-title::before {
+    background: #7c3aed; /* Dark purple for light backgrounds */
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2); /* Subtle glow */
+}
+
+.n8ndash-widget[data-widget-type="chart"] .n8ndash-widget-preview-type {
+    background: rgba(124, 58, 237, 0.1); /* Light background for dark text */
+    color: #7c3aed; /* Dark purple text for light backgrounds */
+    border-color: #8b5cf6;
+    font-weight: 700;
+}
+
+/* Custom Widget - Dark Colors for Light Backgrounds */
+.n8ndash-widget[data-widget-type="custom"] .n8ndash-widget-preview-title::before {
+    background: #d97706; /* Dark orange for light backgrounds */
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.2); /* Subtle glow */
+}
+
+.n8ndash-widget[data-widget-type="custom"] .n8ndash-widget-preview-type {
+    background: rgba(217, 119, 6, 0.1); /* Light background for dark text */
+    color: #d97706; /* Dark orange text for light backgrounds */
+    border-color: #f59e0b;
+    font-weight: 700;
+}
+
+/* ==========================================================================
+   Widget Preview Title - Dark Colors for Light Backgrounds
+   ========================================================================== */
+
+.n8ndash-widget-preview-title {
+    font-size: 14px; /* Standard font size */
+    font-weight: 600;
+    color: #1e293b; /* Dark text for light backgrounds */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 8px 0;
+}
+
+.n8ndash-widget-preview-title::before {
+    content: '';
+    width: 10px; /* Standard indicator size */
+    height: 10px;
+    border-radius: 50%;
+    background: #3b82f6; /* Dark blue for light backgrounds */
+    flex-shrink: 0;
+    border: 1px solid #60a5fa;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2); /* Subtle glow */
+}
+
+.n8ndash-widget-preview-type {
+    background: rgba(59, 130, 246, 0.1); /* Light background for dark text */
+    color: #3b82f6; /* Dark blue text for light backgrounds */
+    padding: 3px 10px; /* Standard padding */
+    border-radius: 12px;
+    font-size: 11px; /* Standard font size */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid #60a5fa;
+    flex-shrink: 0;
+    box-shadow: none;
+}
+
+/* ==========================================================================
+   Responsive Chart Sizing - Standard Dimensions Across Devices
+   ========================================================================== */
+
+/* Desktop - Standard Professional Size */
+@media (min-width: 1200px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 280px; /* Large desktop charts */
+        min-height: 280px;
+        padding: 20px;
+    }
+}
+
+/* Medium Screens - Standard Size */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 240px; /* Standard professional size */
+        min-height: 240px;
+        padding: 16px;
+    }
+}
+
+/* Mobile - Compact but Readable */
+@media (max-width: 767px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 200px; /* Mobile optimized but still standard */
+        min-height: 200px;
+        padding: 12px;
+    }
+    
+    .n8ndash-widget-preview .n8n-chart-subtitle {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+/* Small Mobile - Minimum Viable Size */
+@media (max-width: 480px) {
+    .n8ndash-widget-preview .n8n-chart-container {
+        height: 180px; /* Compact but functional */
+        min-height: 180px;
+        padding: 10px;
+    }
+}
+
+/* ==========================================================================
+   Chart Focus and Loading States - Enhanced User Experience
+   ========================================================================== */
+
+/* Enhanced focus states for chart widgets */
+.n8ndash-widget[data-widget-type="chart"]:focus-within .n8n-chart-container {
+    outline: 2px solid #8b5cf6;
+    outline-offset: 4px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.2);
+}
+
+/* Chart loading state with better visibility */
+.n8ndash-widget .n8n-chart-container.loading {
+    position: relative;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.n8ndash-widget .n8n-chart-container.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 32px; /* Standard loading spinner */
+    height: 32px;
+    margin: -16px 0 0 -16px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-top: 3px solid #8b5cf6;
+    border-radius: 50%;
+    animation: n8ndash-spin 1s linear infinite;
+    z-index: 100;
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+/* ==========================================================================
+   Chart Legend and Labels - Enhanced Visibility for Light Backgrounds
+   ========================================================================== */
+
+/* Ensure chart labels are visible on light backgrounds */
+.n8ndash-widget .n8n-chart-container .chartjs-tooltip {
+    background: rgba(255, 255, 255, 0.98) !important;
+    color: #1e293b !important; /* Dark text for light backgrounds */
+    border: 1px solid rgba(139, 92, 246, 0.3) !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Chart axis labels visibility for light backgrounds */
+.n8ndash-widget .n8n-chart-container .chartjs-axis-label {
+    color: #374151 !important; /* Dark gray for light backgrounds */
+    font-weight: 500 !important;
+    font-size: 11px !important;
+}
+
+/* Chart grid lines for better visibility on light backgrounds */
+.n8ndash-widget .n8n-chart-container .chartjs-grid-line {
+    stroke: rgba(0, 0, 0, 0.1) !important; /* Subtle dark grid lines */
+}
+
+/* ==========================================================================
+   KPI Delta Styling - Proper Contrast for Light Backgrounds
+   ========================================================================== */
+
+.n8ndash-widget .n8n-kpi__delta {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 8px;
+    border-radius: 16px;
+    background: rgba(59, 130, 246, 0.1); /* Light background for dark text */
+    white-space: nowrap;
+    color: #135e96; /* Dark blue for light backgrounds */
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.n8ndash-widget .n8n-kpi__delta--up {
+    color: #0f5132; /* Dark green for light backgrounds */
+    background: rgba(16, 185, 129, 0.1);
+    border-color: rgba(16, 185, 129, 0.2);
+}
+
+.n8ndash-widget .n8n-kpi__delta--down {
+    color: #dc2626; /* Dark red for light backgrounds */
+    background: rgba(239, 68, 68, 0.1);
+    border-color: rgba(239, 68, 68, 0.2);
+}
+
+/* ==========================================================================
+   Loading Animation
+   ========================================================================== */
+
+@keyframes n8ndash-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+

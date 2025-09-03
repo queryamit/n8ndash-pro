@@ -1,0 +1,559 @@
+/**
+ * Dashboard Preview Styles for n8nDash Pro
+ * 
+ * Modern card-based design with proper contrast and professional appearance
+ *
+ * @since      1.0.0
+ * @package    N8nDash_Pro
+ * @subpackage N8nDash_Pro/assets/css/admin
+ */
+
+/* ==========================================================================
+   Preview Dashboard - Modern Card-Based Design
+   ========================================================================== */
+
+/* Dashboard Container */
+.n8dash-preview-container {
+    background: #f8fafc;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    padding: 2rem 0;
+}
+
+/* Dashboard Header */
+.n8dash-preview-header {
+    background: #ffffff;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.n8dash-preview-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 0.5rem 0;
+    line-height: 1.2;
+}
+
+.n8dash-preview-description {
+    font-size: 1.125rem;
+    color: #64748b;
+    margin: 0 0 1rem 0;
+    line-height: 1.6;
+}
+
+.n8dash-preview-meta {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.n8dash-preview-widget-count,
+.n8dash-preview-mode {
+    background: #f1f5f9;
+    color: #475569;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: 1px solid #cbd5e1;
+}
+
+.n8dash-preview-mode {
+    background: #3b82f6;
+    color: #ffffff;
+    border-color: #2563eb;
+}
+
+/* Dashboard Content */
+.n8dash-preview-content {
+    padding: 0 2rem;
+}
+
+/* ==========================================================================
+   Modern Widget Grid Layout
+   ========================================================================== */
+
+.n8dash-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+/* ==========================================================================
+   Modern Widget Cards - Professional Design
+   ========================================================================== */
+
+.n8dash-preview-widget {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e2e8f0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.n8dash-preview-widget:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+    border-color: #cbd5e1;
+}
+
+/* ==========================================================================
+   Widget Header - Modern Design
+   ========================================================================== */
+
+.n8dash-preview-widget-header {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    min-height: 60px;
+    flex-shrink: 0;
+}
+
+.n8dash-preview-widget-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1e293b;
+    margin: 0;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex: 1;
+}
+
+.n8dash-preview-widget-title::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    background: #3b82f6;
+    flex-shrink: 0;
+}
+
+.n8dash-preview-widget-type {
+    background: #3b82f6;
+    color: #ffffff;
+    padding: 0.375rem 0.875rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: 1px solid #2563eb;
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   Widget Body - Content Area
+   ========================================================================== */
+
+.n8dash-preview-widget-body {
+    padding: 1.5rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    min-height: 200px;
+}
+
+/* ==========================================================================
+   Widget Type Specific Styling
+   ========================================================================== */
+
+/* Data Widget */
+.n8dash-preview-widget[data-widget-type="data"] .n8dash-preview-widget-type {
+    background: #10b981;
+    border-color: #059669;
+}
+
+.n8dash-preview-widget[data-widget-type="data"] .n8dash-preview-widget-title::before {
+    background: #10b981;
+}
+
+/* Chart Widget */
+.n8dash-preview-widget[data-widget-type="chart"] .n8dash-preview-widget-type {
+    background: #8b5cf6;
+    border-color: #7c3aed;
+}
+
+.n8dash-preview-widget[data-widget-type="chart"] .n8dash-preview-widget-title::before {
+    background: #8b5cf6;
+}
+
+/* Custom Widget */
+.n8dash-preview-widget[data-widget-type="custom"] .n8dash-preview-widget-type {
+    background: #f59e0b;
+    border-color: #d97706;
+}
+
+.n8dash-preview-widget[data-widget-type="custom"] .n8dash-preview-widget-title::before {
+    background: #f59e0b;
+}
+
+/* ==========================================================================
+   Widget Content Layout
+   ========================================================================== */
+
+.n8dash-preview-widget .n8n-data-widget,
+.n8dash-preview-widget .n8n-chart-widget,
+.n8dash-preview-widget .n8n-custom-widget {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ==========================================================================
+   KPI Widget Styling
+   ========================================================================== */
+
+.n8dash-preview-widget .n8n-kpi {
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    max-width: 280px;
+}
+
+.n8dash-preview-widget .n8n-kpi__value {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.n8dash-preview-widget .n8n-kpi__main {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #1e293b;
+    display: block;
+    line-height: 1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.n8dash-preview-widget .n8n-kpi__delta {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.375rem 0.75rem;
+    border-radius: 6px;
+    background: rgba(59, 130, 246, 0.1);
+    white-space: nowrap;
+    color: #1d4ed8;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.n8dash-preview-widget .n8n-kpi__delta--up {
+    color: #059669;
+    background: rgba(16, 185, 129, 0.1);
+    border-color: rgba(16, 185, 129, 0.2);
+}
+
+.n8dash-preview-widget .n8n-kpi__delta--down {
+    color: #dc2626;
+    background: rgba(239, 68, 68, 0.1);
+    border-color: rgba(239, 68, 68, 0.2);
+}
+
+.n8dash-preview-widget .n8n-kpi__subtitle {
+    color: #64748b;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 0.75rem;
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+   Chart Widget Styling
+   ========================================================================== */
+
+.n8dash-preview-widget .n8n-chart-container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #f8fafc;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.n8dash-preview-widget .n8n-chart-subtitle {
+    color: #64748b;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 0.75rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+   List Widget Styling
+   ========================================================================== */
+
+.n8dash-preview-widget .n8n-list__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    max-height: 120px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.n8dash-preview-widget .n8n-list__item {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.n8dash-preview-widget .n8n-list__item:last-child {
+    border-bottom: none;
+}
+
+.n8dash-preview-widget .n8n-list__item a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+    display: block;
+    padding: 0.25rem 0;
+}
+
+.n8dash-preview-widget .n8n-list__item a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.n8dash-preview-widget .n8n-list__item--empty {
+    color: #94a3b8;
+    font-style: italic;
+    text-align: center;
+    padding: 1.5rem 0;
+    font-weight: 500;
+}
+
+/* ==========================================================================
+   Empty State Styling
+   ========================================================================== */
+
+.n8dash-preview-empty {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    grid-column: 1 / -1;
+}
+
+.n8dash-preview-empty-icon {
+    font-size: 4rem;
+    color: #cbd5e1;
+    margin-bottom: 1.5rem;
+}
+
+.n8dash-preview-empty h3 {
+    font-size: 1.5rem;
+    color: #475569;
+    margin: 0 0 0.75rem;
+    font-weight: 600;
+}
+
+.n8dash-preview-empty p {
+    color: #94a3b8;
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   Responsive Design
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    .n8dash-preview-container {
+        padding: 1rem 0;
+    }
+    
+    .n8dash-preview-header {
+        padding: 1.5rem 0;
+        margin-bottom: 1.5rem;
+    }
+    
+    .n8dash-preview-title {
+        font-size: 2rem;
+    }
+    
+    .n8dash-preview-content {
+        padding: 0 1rem;
+    }
+    
+    .n8dash-preview-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    .n8dash-preview-widget {
+        min-height: 250px;
+    }
+    
+    .n8dash-preview-widget-header {
+        padding: 1rem 1.25rem;
+        min-height: 50px;
+    }
+    
+    .n8dash-preview-widget-body {
+        padding: 1.25rem;
+        min-height: 150px;
+    }
+    
+    .n8dash-preview-widget .n8n-kpi__main {
+        font-size: 2.5rem;
+    }
+    
+    .n8dash-preview-widget .n8n-chart-container {
+        height: 160px;
+    }
+}
+
+@media (max-width: 480px) {
+    .n8dash-preview-header {
+        padding: 1rem 0;
+        margin-bottom: 1rem;
+    }
+    
+    .n8dash-preview-title {
+        font-size: 1.75rem;
+    }
+    
+    .n8dash-preview-description {
+        font-size: 1rem;
+    }
+    
+    .n8dash-preview-content {
+        padding: 0 0.75rem;
+    }
+    
+    .n8dash-preview-grid {
+        gap: 1rem;
+    }
+    
+    .n8dash-preview-widget {
+        min-height: 220px;
+    }
+    
+    .n8dash-preview-widget-header {
+        padding: 0.875rem 1rem;
+    }
+    
+    .n8dash-preview-widget-body {
+        padding: 1rem;
+        min-height: 120px;
+    }
+    
+    .n8dash-preview-widget .n8n-kpi__main {
+        font-size: 2rem;
+    }
+    
+    .n8dash-preview-widget .n8n-chart-container {
+        height: 140px;
+    }
+}
+
+/* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* ==========================================================================
+   Modern Scrollbar Styling
+   ========================================================================== */
+
+.n8dash-preview-widget .n8n-list__items::-webkit-scrollbar {
+    width: 6px;
+}
+
+.n8dash-preview-widget .n8n-list__items::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 3px;
+}
+
+.n8dash-preview-widget .n8n-list__items::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+}
+
+.n8dash-preview-widget .n8n-list__items::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* ==========================================================================
+   Enhanced Focus States for Accessibility
+   ========================================================================== */
+
+.n8dash-preview-widget:focus-within {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+.n8dash-preview-widget .n8n-list__item a:focus {
+    outline: 2px solid #60a5fa;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* ==========================================================================
+   Loading States
+   ========================================================================== */
+
+.n8dash-preview-widget.loading {
+    position: relative;
+    min-height: 200px;
+}
+
+.n8dash-preview-widget.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin: -12px 0 0 -12px;
+    border: 2px solid #e2e8f0;
+    border-top: 2px solid #3b82f6;
+    border-radius: 50%;
+    animation: n8dash-spin 1s linear infinite;
+}
+
+@keyframes n8dash-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
