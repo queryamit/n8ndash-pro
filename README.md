@@ -22,7 +22,7 @@ n8nDash Pro is a professional WordPress plugin that brings the power of n8n auto
   
 - 🔄 **n8n Integration**
   - Webhook-based data fetching
-  - Support for GET/POST/PUT/DELETE methods
+  - Support for GET/POST/ methods
   - Custom headers configuration
   - JSON and form data support
 
